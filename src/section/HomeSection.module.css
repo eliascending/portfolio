@@ -1,0 +1,68 @@
+.home-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../public/background.jpg");
+}
+.darker {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.home-text h1 {
+    width: 50vw;
+    font-family: "sfbold";
+    font-size: 5em;
+    text-align: center;
+}
+.home-text h2 {
+    width: 50vw;
+    text-align: center;
+    font-size: 2.4em;
+    font-family: "sfregular";
+}
+@keyframes pulseButton {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	25% {
+		animation-timing-function: ease-in;
+		transform: scale(0.95);
+	}
+
+	50% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+.btn-cv {
+    margin-top: 25px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 12vw;
+    outline: none;
+    background-color: #fff;
+    font-family: "sfmed";
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+}
+.btn-cv:hover {
+    cursor: pointer;
+    animation: pulseButton 2s ease 0s 1 normal forwards;
+}

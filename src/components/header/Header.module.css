@@ -1,0 +1,50 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+.open-menu {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(211, 154, 255);
+}
+.open-menu:hover {
+    cursor: pointer;
+}
+.header-anim {
+    background-color: #000000f1;
+    width: 15vw;
+    height: 100vh;
+    animation: slideMenu 0.3s ease 0s 1 normal forwards;
+}
+@keyframes slideMenu {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+ul {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 3rem;
+    width: 100%;
+    font-family: "sfregular";
+}
+li:hover {
+    cursor: pointer;
+    color: rgb(211, 154, 255);
+}

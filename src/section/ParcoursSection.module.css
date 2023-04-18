@@ -1,0 +1,55 @@
+.parcours-section {
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    border-bottom: 2px solid black;
+}
+.parcours-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    height: 40vh;
+}
+.left-content-parcours {
+    margin-left: 2rem;
+    width: 14vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title-parcours {
+    font-family: "sfbold";
+    font-size: 4em;
+    width: 14vw;
+    margin-top: 3rem;
+}
+.right-content-parcours {
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.parcours-item {
+    height: 25vh;
+    width: 25vw;
+}
+.item-parcours-title {
+    font-family: "sfbold";
+    font-size: 1.6em;
+}
+.item-parcours-date {
+    font-family: "sfregular";
+    font-size: 1em;
+}
+.item-parcours-text {
+    margin-top: 10px;
+    font-family: "sfmed";
+    font-size: 1.2em;
+}
+.item-parcours-order {
+    font-size: 2.5em;
+    font-family: "sfbold";
+}

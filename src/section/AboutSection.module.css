@@ -1,0 +1,38 @@
+.about-section {
+    width: 100%;
+    height: 32vh;
+    background-color: #ffffff;
+    border-bottom: 2px solid black;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    height: 32vh;
+}
+.left-content-about {
+    margin-left: 2rem;
+    width: 14vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title-about {
+    font-family: "sfbold";
+    font-size: 4em;
+    width: 14vw;
+    margin-top: 3rem;
+}
+.right-content-about {
+    margin-right: 15px;
+    width: 75vw;
+    height: 100%;
+    display: flex;
+}
+.about-text {
+    margin-top: 3rem;
+    font-family: "sfregular";
+    font-size: 1.35em;
+}

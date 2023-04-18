@@ -1,0 +1,68 @@
+.competence-section {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../../public/background2.jpg");
+    background-size: cover;
+}
+.darker2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.competence-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.competence-title {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "sfbold";
+    font-size: 4em;
+
+}
+.competence-list {
+    width: 90%;
+    height: 45vh;
+    display: flex;
+}
+.competence-item {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.left-list {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-list {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.competence-img {
+    margin-left: 15px;
+    height: 80%;
+}
+.competence-item-title {
+    font-size: 2em;
+    font-family: "sfmed";
+}

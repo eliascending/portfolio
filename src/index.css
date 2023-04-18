@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "sfbold";
+  src: url("../src/fonts/SFPRODISPLAYBOLD.OTF");
+}
+@font-face {
+  font-family: "sfregular";
+  src: url("../src/fonts/SFPRODISPLAYREGULAR.OTF");
+}
+@font-face {
+  font-family: "sfmed";
+  src: url("../src/fonts/SFPRODISPLAYMEDIUM.OTF");
+}
