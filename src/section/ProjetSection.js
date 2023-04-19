@@ -25,7 +25,7 @@ const ProjetSection = () => {
                         </div>
                     </div>
                     <div className={style["right-item-projet"]}>
-                        <img className={style["projet-img"]} src={process.env.PUBLIC_URL + 'playmobil.png'}/>
+                        <img alt='Mockup Application Christmas Town' className={style["projet-img"]} src={process.env.PUBLIC_URL + 'playmobil.png'}/>
                     </div>
                 </div>
                 <div className={style["projets-item1"]}>
@@ -44,7 +44,7 @@ const ProjetSection = () => {
                         </div>
                     </div>
                     <div className={style["right-item-projet"]}>
-                        <img className={style["projet-img"]} src={process.env.PUBLIC_URL + 'snkrs.png'}/>
+                        <img alt='Mockup site Royal SNKRS' className={style["projet-img"]} src={process.env.PUBLIC_URL + 'snkrs.png'}/>
                     </div>
                 </div>
                 <div className={style["projets-item"]}>
@@ -63,7 +63,7 @@ const ProjetSection = () => {
                         </div>
                     </div>
                     <div className={style["right-item-projet"]}>
-                        <img className={style["projet1-img"]} src={process.env.PUBLIC_URL + 'velmi.png'}/>
+                        <img alt='Mockup Application Velmi' className={style["projet1-img"]} src={process.env.PUBLIC_URL + 'velmi.png'}/>
                     </div>
                 </div>
                 <div className={style["projets-item"]}>
@@ -82,7 +82,7 @@ const ProjetSection = () => {
                         </div>
                     </div>
                     <div className={style["right-item-projet"]}>
-                        <img className={style["projet-img"]} src={process.env.PUBLIC_URL + 'fieald.png'}/>
+                        <img alt='Mockup site FIEALD' className={style["projet-img"]} src={process.env.PUBLIC_URL + 'fieald.png'}/>
                     </div>
                 </div>
                 <div className={style["projets-item"]}>
@@ -101,7 +101,7 @@ const ProjetSection = () => {
                         </div>
                     </div>
                     <div className={style["right-item-projet"]}>
-                        <img className={style["projet-img"]} src={process.env.PUBLIC_URL + 'fate.png'}/>
+                        <img alt='Mockup site FATE' className={style["projet-img"]} src={process.env.PUBLIC_URL + 'fate.png'}/>
                     </div>
                 </div>
                 <div className={style["projets-item"]}>
@@ -121,7 +121,7 @@ const ProjetSection = () => {
                         </div>
                     </div>
                     <div className={style["right-item-projet"]}>
-                        <img className={style["projet-img"]} src={process.env.PUBLIC_URL + 'pain.png'}/>
+                        <img alt='Mockup Application Pain' className={style["projet-img"]} src={process.env.PUBLIC_URL + 'pain.png'}/>
                     </div>
                 </div>
             </div>

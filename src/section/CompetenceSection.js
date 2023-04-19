@@ -11,37 +11,37 @@ const CompetenceSection = () => {
                 <div className={style["competence-list"]}>
                     <div className={style["left-list"]}>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'html.png'}/>
+                            <img alt='Logo HTML' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'html.png'}/>
                             <p className={style["competence-item-title"]}>HTML/CSS</p>
                         </div>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'js.png'}/>
+                            <img alt='Logo Javascript' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'js.png'}/>
                             <p className={style["competence-item-title"]}>Javascript</p>
                         </div>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'react.png'}/>
+                            <img alt='Logo React' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'react.png'}/>
                             <p className={style["competence-item-title"]}>React</p>
                         </div>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'php.png'}/>
+                            <img alt='Logo PhP' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'php.png'}/>
                             <p className={style["competence-item-title"]}>PHP</p>
                         </div>
                     </div>
                     <div className={style["right-list"]}>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'photoshop.png'}/>
+                            <img alt='Logo Photoshop' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'photoshop.png'}/>
                             <p className={style["competence-item-title"]}>Photoshop</p>
                         </div>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'illustrator.png'}/>
+                            <img alt='Logo Illustrator' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'illustrator.png'}/>
                             <p className={style["competence-item-title"]}>Illustrator</p>
                         </div>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'indesign.png'}/>
+                            <img alt='Logo InDesign' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'indesign.png'}/>
                             <p className={style["competence-item-title"]}>InDesign</p>
                         </div>
                         <div className={style["competence-item"]}>
-                            <img className={style["competence-img"]} src={process.env.PUBLIC_URL + 'figma.png'}/>
+                            <img alt='Logo Figma' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'figma.png'}/>
                             <p className={style["competence-item-title"]}>Figma</p>
                         </div>
                     </div>
