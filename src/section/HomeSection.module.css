@@ -67,7 +67,7 @@
     animation: pulseButton 2s ease 0s 1 normal forwards;
 }
 /* Téléphone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
     .home-section {
         height: 100vh;
     }
@@ -85,4 +85,7 @@
         font-size: 17px;
         color: black;
     }
+}
+@media only screen and (max-width: 375px) {
+    
 }

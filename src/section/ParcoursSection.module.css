@@ -54,7 +54,7 @@
     font-family: "sfbold";
 }
 /* Téléphone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
     .parcours-section {
         height: 85vh;
     }
@@ -92,5 +92,28 @@
     }
     .item-parcours-order {
         font-size: 2.3em;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .parcours-section {
+        height: 95vh;
+    }
+    .parcours-content {
+        height: 95vh;
+    }
+    .title-parcours {
+        font-size: 2.8em;
+    }
+    .item-parcours-title {
+        font-size: 1.2em;
+    }
+    .item-parcours-date {
+        font-size: 0.6em;
+    }
+    .item-parcours-text {
+        font-size: 0.8em;
+    }
+    .item-parcours-order {
+        font-size: 2.1em;
     }
 }

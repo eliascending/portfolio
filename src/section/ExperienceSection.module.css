@@ -54,7 +54,7 @@
     border-radius: 10px;
 }
 /* Téléphone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
     .experience-section {
         height: 80vh;
     }
@@ -78,5 +78,31 @@
     .experience-item {
         width: 80vw;
         height: 13vh;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .experience-section {
+        height: 90vh;
+    }
+    .experience-title h2 {
+        margin-top: -2rem;
+        font-size: 2.8em;
+    }
+    .experience-content {
+        height: 70vh;
+    }
+    .title-exp {
+        font-size: 1em;
+    }
+    .date-exp {
+        font-size: 0.6em;
+    }
+    .text-exp {
+        font-size: 0.8em;
+    }
+    .experience-item {
+        margin-top: 1rem;
+        width: 90vw;
+        height: 15vh;
     }
 }

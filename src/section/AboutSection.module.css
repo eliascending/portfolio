@@ -37,7 +37,7 @@
     font-size: 1.35em;
 }
 /* Téléphone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
     .about-section {
         height: 60vh;
     }
@@ -65,5 +65,20 @@
         margin-right: 2rem;
         margin-top: 1rem;
         font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .about-section {
+        height: 70vh;
+    }
+    .about-content {
+        flex-direction: column;
+        height: 70vh;
+    }
+    .title-about {
+        font-size: 2.8em;
+    }
+    .about-text {
+        font-size: 1em;
     }
 }

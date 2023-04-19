@@ -20,7 +20,7 @@ body, html {
   font-family: "sfmed";
   src: url("../src/fonts/SFPRODISPLAYMEDIUM.OTF");
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
   body, html {
     overflow-x: hidden;
   }

@@ -79,7 +79,7 @@
     height: 100%;
 }
 /* Téléphone */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 414px) {
     .projets-section {
         height: 270vh;
     }
@@ -127,5 +127,19 @@
     .projet1-img {
         height: 70%;
         width: 100%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .title-projets {
+        font-size: 2.8em;
+    }
+    .item-projet-title {
+        font-size: 1.4em;
+    }
+    .item-projet-date {
+        font-size: 0.6em;
+    }
+    .item-projet-text {
+        font-size: 0.8em;
     }
 }
