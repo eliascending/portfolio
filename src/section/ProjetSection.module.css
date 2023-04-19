@@ -78,3 +78,54 @@
 .projet1-img {
     height: 100%;
 }
+/* Téléphone */
+@media only screen and (max-width: 480px) {
+    .projets-section {
+        height: 270vh;
+    }
+    .projets-content {
+        align-items: start;
+        flex-direction: column;
+        height: 270vh;
+    }
+    .left-content-projets {
+        width: 80%;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .title-projets {
+        font-size: 3em;
+        width: auto;
+        margin-top: 1rem;
+    }
+    .right-content-projets {
+        width: 95%;
+        margin-left: 1rem;
+        gap: 0vw;
+    }
+    .projets-item1 {
+        width: 90vw;
+        height: 40vh;
+    }
+    .projets-item {
+        width: 90vw;
+        height: 40vh;
+    }
+    .item-projet-title {
+        font-size: 1.6em;
+    }
+    .item-projet-date {
+        font-size: 0.8em;
+    }
+    .item-projet-text {
+        font-size: 1em;
+        width: 90%;
+    }
+    .left-item-projet {
+        width: 70%;
+    }
+    .projet1-img {
+        height: 70%;
+        width: 100%;
+    }
+}

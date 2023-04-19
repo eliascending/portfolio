@@ -116,7 +116,7 @@ const ProjetSection = () => {
                             <p>Ce projet de groupe est une application permettant de livrer du pain accessible aux boulangeries et
                                 aux livreurs. Mon pain chez moi est une solution pour les personnes n'ayant pas le temps ou les 
                                 capacités physique de se déplacer acheter du pain. Il est une liaison entre les boulangers et les livreurs permettant ainsi
-                                une meilleure qualité de
+                                une meilleure qualité de service.
                             </p>
                         </div>
                     </div>

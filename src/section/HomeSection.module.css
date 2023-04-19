@@ -66,3 +66,22 @@
     cursor: pointer;
     animation: pulseButton 2s ease 0s 1 normal forwards;
 }
+/* Téléphone */
+@media only screen and (max-width: 480px) {
+    .home-section {
+        height: 100vh;
+    }
+    .home-text h1 {
+        width: 100%;
+        font-size: 3em;
+    }
+    .home-text h2 {
+        width: 90vw;
+        font-size: 1.4em;
+    }
+    .btn-cv {
+        height: 2.5rem;
+        width: 50vw;
+        font-size: 17px;
+    }
+}

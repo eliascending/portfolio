@@ -34,3 +34,19 @@ footer {
     align-items: center;
     justify-content: center;
 }
+/* Téléphone */
+@media only screen and (max-width: 480px) {
+    .left-footer p {
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+    .linkedin-img {
+        height: 60%;
+    }
+    .a-linkedin {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

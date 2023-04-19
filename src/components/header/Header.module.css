@@ -48,3 +48,9 @@ li:hover {
     cursor: pointer;
     color: rgb(211, 154, 255);
 }
+/* Téléphone */
+@media only screen and (max-width: 480px) {
+    .header-anim {
+        width: 45vw;
+    }
+}
