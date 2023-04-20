@@ -87,5 +87,12 @@
     }
 }
 @media only screen and (max-width: 375px) {
-    
+    .btn-cv {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .btn-cv {
+        font-size: 16px;
+    }
 }

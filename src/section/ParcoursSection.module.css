@@ -117,3 +117,26 @@
         font-size: 2.1em;
     }
 }
+@media only screen and (max-width: 390px) {
+    .parcours-section {
+        height: 90vh;
+    }
+    .parcours-content {
+        height: 90vh;
+    }
+    .title-parcours {
+        font-size: 2.8em;
+    }
+    .item-parcours-title {
+        font-size: 1.3em;
+    }
+    .item-parcours-date {
+        font-size: 0.7em;
+    }
+    .item-parcours-text {
+        font-size: 0.9em;
+    }
+    .item-parcours-order {
+        font-size: 2.2em;
+    }
+}

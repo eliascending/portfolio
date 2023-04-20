@@ -82,3 +82,17 @@
         font-size: 1em;
     }
 }
+@media only screen and (max-width: 390px) {
+    .about-section {
+        height: 60vh;
+    }
+    .about-content {
+        height: 60vh;
+    }
+    .title-about {
+        font-size: 2.8em;
+    }
+    .about-text {
+        font-size: 1em;
+    }
+}

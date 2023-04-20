@@ -95,3 +95,11 @@
         font-size: 1.1em;
     }
 }
+@media only screen and (max-width: 390px) {
+    .competence-title {
+        font-size: 2.9em;
+    }
+    .competence-item-title {
+        font-size: 1.2em;
+    }
+}

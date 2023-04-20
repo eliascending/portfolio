@@ -106,3 +106,17 @@
         height: 15vh;
     }
 }
+@media only screen and (max-width: 390px) {
+    .title-exp {
+        margin-left: 0.5rem;
+        font-size: 1.1em;
+    }
+    .date-exp {
+        font-size: 0.7em;
+        margin-left: 0.5rem;
+    }
+    .text-exp {
+        font-size: 0.9em;
+        margin-left: 0.5rem;
+    }
+}
