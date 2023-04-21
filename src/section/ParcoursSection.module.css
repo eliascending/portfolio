@@ -54,7 +54,7 @@
     font-family: "sfbold";
 }
 /* Téléphone */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
     .parcours-section {
         height: 85vh;
     }
@@ -94,38 +94,31 @@
         font-size: 2.3em;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 425px) and (max-width: 500px) {
     .parcours-section {
-        height: 95vh;
+        height: 90vh;
     }
     .parcours-content {
-        height: 95vh;
-    }
-    .title-parcours {
-        font-size: 2.8em;
-    }
-    .item-parcours-title {
-        font-size: 1.2em;
-    }
-    .item-parcours-date {
-        font-size: 0.6em;
-    }
-    .item-parcours-text {
-        font-size: 0.8em;
-    }
-    .item-parcours-order {
-        font-size: 2.1em;
+        height: 90vh;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
     .parcours-section {
         height: 90vh;
     }
     .parcours-content {
         height: 90vh;
     }
-    .title-parcours {
-        font-size: 2.8em;
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .parcours-section {
+        height: 100vh;
+    }
+    .parcours-content {
+        height: 100vh;
+    }
+    .parcours-item {
+        height: 30vh;
     }
     .item-parcours-title {
         font-size: 1.3em;

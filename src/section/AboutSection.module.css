@@ -36,14 +36,14 @@
     font-family: "sfregular";
     font-size: 1.35em;
 }
-/* Téléphone */
-@media only screen and (max-width: 414px) {
+/* Grand tel */
+@media only screen and (max-width: 600px) {
     .about-section {
-        height: 60vh;
+        height: 55vh;
     }
     .about-content {
         flex-direction: column;
-        height: 60vh;
+        height: 55vh;
     }
     .left-content-about {
         margin-left: 1rem;
@@ -67,32 +67,27 @@
         font-size: 1.2em;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 425px) and (max-width: 500px) {
     .about-section {
-        height: 70vh;
+        height: 65vh;
     }
     .about-content {
-        flex-direction: column;
-        height: 70vh;
-    }
-    .title-about {
-        font-size: 2.8em;
-    }
-    .about-text {
-        font-size: 1em;
+        height: 65vh;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
     .about-section {
-        height: 60vh;
+        height: 75vh;
     }
     .about-content {
-        height: 60vh;
+        height: 75vh;
     }
-    .title-about {
-        font-size: 2.8em;
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .about-section {
+        height: 85vh;
     }
-    .about-text {
-        font-size: 1em;
+    .about-content {
+        height: 85vh;
     }
 }

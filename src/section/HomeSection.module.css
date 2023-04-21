@@ -18,13 +18,13 @@
     color: #fff;
 }
 .home-text h1 {
-    width: 50vw;
+    width: 80%;
     font-family: "sfbold";
     font-size: 5em;
     text-align: center;
 }
 .home-text h2 {
-    width: 50vw;
+    width: 90%;
     text-align: center;
     font-size: 2.4em;
     font-family: "sfregular";
@@ -53,7 +53,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 12vw;
+    width: 23%;
     outline: none;
     background-color: #fff;
     font-family: "sfmed";
@@ -67,7 +67,7 @@
     animation: pulseButton 2s ease 0s 1 normal forwards;
 }
 /* Téléphone */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
     .home-section {
         height: 100vh;
     }
@@ -76,23 +76,21 @@
         font-size: 3em;
     }
     .home-text h2 {
-        width: 90vw;
+        width: 90%;
         font-size: 1.4em;
     }
     .btn-cv {
         height: 2.5rem;
-        width: 50vw;
+        width: 50%;
         font-size: 17px;
         color: black;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 320px) and (max-width: 375px) {
     .btn-cv {
-        font-size: 16px;
-    }
-}
-@media only screen and (max-width: 390px) {
-    .btn-cv {
-        font-size: 16px;
+        height: 2.5rem;
+        width: 65%;
+        font-size: 17px;
+        color: black;
     }
 }

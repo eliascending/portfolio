@@ -79,7 +79,7 @@
     height: 100%;
 }
 /* Téléphone */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
     .projets-section {
         height: 270vh;
     }
@@ -129,23 +129,28 @@
         width: 100%;
     }
 }
-@media only screen and (max-width: 375px) {
-    .title-projets {
-        font-size: 2.8em;
+@media only screen and (min-width: 425px) and (max-width: 500px) {
+    .projets-section {
+        height: 275vh;
     }
-    .item-projet-title {
-        font-size: 1.4em;
-    }
-    .item-projet-date {
-        font-size: 0.6em;
-    }
-    .item-projet-text {
-        font-size: 0.8em;
+    .projets-content {
+        height: 275vh;
     }
 }
-@media only screen and (max-width: 390px) {
-    .title-projets {
-        font-size: 2.9em;
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .projets-section {
+        height: 280vh;
+    }
+    .projets-content {
+        height: 275vh;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .projets-section {
+        height: 290vh;
+    }
+    .projets-content {
+        height: 285vh;
     }
     .item-projet-title {
         font-size: 1.5em;
@@ -155,5 +160,6 @@
     }
     .item-projet-text {
         font-size: 0.9em;
+        width: 90%;
     }
 }
