@@ -39,11 +39,11 @@
 /* Grand tel */
 @media only screen and (max-width: 600px) {
     .about-section {
-        height: 55vh;
+        height: 70vh;
     }
     .about-content {
         flex-direction: column;
-        height: 55vh;
+        height: 70vh;
     }
     .left-content-about {
         margin-left: 1rem;
@@ -69,25 +69,25 @@
 }
 @media only screen and (min-width: 425px) and (max-width: 500px) {
     .about-section {
-        height: 65vh;
+        height: 80vh;
     }
     .about-content {
-        height: 65vh;
+        height: 80vh;
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) {
     .about-section {
-        height: 75vh;
+        height: 90vh;
     }
     .about-content {
-        height: 75vh;
+        height: 90vh;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
     .about-section {
-        height: 85vh;
+        height: 100vh;
     }
     .about-content {
-        height: 85vh;
+        height: 100vh;
     }
 }

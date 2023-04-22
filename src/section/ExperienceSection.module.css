@@ -56,13 +56,13 @@
 /* Téléphone */
 @media only screen and (max-width: 600px) {
     .experience-section {
-        height: 80vh;
+        height: 90vh;
     }
     .experience-title h2 {
         font-size: 3em;
     }
     .experience-content {
-        height: 60vh;
+        height: 70vh;
         flex-wrap: wrap;
     }
     .title-exp {
@@ -80,7 +80,7 @@
     }
     .experience-item {
         width: 80vw;
-        height: 13vh;
+        height: 15vh;
     }
 }
 @media only screen and (min-width: 425px) and (max-width: 500px) {
@@ -104,11 +104,14 @@
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
+    .experience-section {
+        height: 100vh;
+    }
     .experience-item {
-        height: 15vh;
+        height: 20vh;
     }
     .experience-content {
-        height: 70vh;
+        height: 90vh;
     }
     .title-exp {
         font-size: 1.1em;

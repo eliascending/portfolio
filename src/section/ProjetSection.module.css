@@ -131,26 +131,26 @@
 }
 @media only screen and (min-width: 425px) and (max-width: 500px) {
     .projets-section {
-        height: 275vh;
+        height: 310vh;
     }
     .projets-content {
-        height: 275vh;
+        height: 295vh;
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) {
     .projets-section {
-        height: 280vh;
+        height: 320vh;
     }
     .projets-content {
-        height: 275vh;
+        height: 315vh;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
     .projets-section {
-        height: 290vh;
+        height: 320vh;
     }
     .projets-content {
-        height: 285vh;
+        height: 310vh;
     }
     .item-projet-title {
         font-size: 1.5em;

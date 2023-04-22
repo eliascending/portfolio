@@ -56,11 +56,11 @@
 /* Téléphone */
 @media only screen and (max-width: 600px) {
     .parcours-section {
-        height: 85vh;
+        height: 115vh;
     }
     .parcours-content {
         flex-direction: column;
-        height: 85vh;
+        height: 100vh;
     }
     .left-content-parcours {
         margin-left: 1rem;
@@ -78,6 +78,7 @@
         align-items: start;
     }
     .parcours-item {
+        height: 25rem;
         margin-left: 1rem;
         width: 90vw;
     }
@@ -96,26 +97,32 @@
 }
 @media only screen and (min-width: 425px) and (max-width: 500px) {
     .parcours-section {
-        height: 90vh;
+        height: 110vh;
     }
     .parcours-content {
-        height: 90vh;
+        height: 110vh;
+    }
+    .parcours-item {
+        height: 30vh;
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) {
     .parcours-section {
-        height: 90vh;
+        height: 110vh;
     }
     .parcours-content {
-        height: 90vh;
+        height: 110vh;
+    }
+    .parcours-item {
+        height: 30vh;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
     .parcours-section {
-        height: 100vh;
+        height: 110vh;
     }
     .parcours-content {
-        height: 100vh;
+        height: 110vh;
     }
     .parcours-item {
         height: 30vh;
