@@ -1,3 +1,4 @@
+import CompetenceItem from '../components/CompetenceItem';
 import style from './CompetenceSection.module.css';
 
 const CompetenceSection = () => {
@@ -10,40 +11,48 @@ const CompetenceSection = () => {
                 </div>
                 <div className={style["competence-list"]}>
                     <div className={style["left-list"]}>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo HTML' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'html.png'}/>
-                            <p className={style["competence-item-title"]}>HTML/CSS</p>
-                        </div>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo Javascript' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'js.png'}/>
-                            <p className={style["competence-item-title"]}>Javascript</p>
-                        </div>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo React' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'react.png'}/>
-                            <p className={style["competence-item-title"]}>React</p>
-                        </div>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo PhP' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'php.png'}/>
-                            <p className={style["competence-item-title"]}>PHP</p>
-                        </div>
+                        <CompetenceItem 
+                            competenceAlt="Logo HTML"
+                            competenceImage={process.env.PUBLIC_URL + 'html.png'}
+                            competenceNom="HTML/CSS"
+                        />
+                        <CompetenceItem 
+                            competenceAlt="Logo Javascript"
+                            competenceImage={process.env.PUBLIC_URL + 'js.png'}
+                            competenceNom="Javascript"
+                        />
+                        <CompetenceItem 
+                            competenceAlt="Logo React"
+                            competenceImage={process.env.PUBLIC_URL + 'react.png'}
+                            competenceNom="React"
+                        />
+                        <CompetenceItem 
+                            competenceAlt="Logo PHP"
+                            competenceImage={process.env.PUBLIC_URL + 'php.png'}
+                            competenceNom="PHP"
+                        />
                     </div>
                     <div className={style["right-list"]}>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo Photoshop' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'photoshop.png'}/>
-                            <p className={style["competence-item-title"]}>Photoshop</p>
-                        </div>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo Illustrator' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'illustrator.png'}/>
-                            <p className={style["competence-item-title"]}>Illustrator</p>
-                        </div>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo InDesign' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'indesign.png'}/>
-                            <p className={style["competence-item-title"]}>InDesign</p>
-                        </div>
-                        <div className={style["competence-item"]}>
-                            <img alt='Logo Figma' className={style["competence-img"]} src={process.env.PUBLIC_URL + 'figma.png'}/>
-                            <p className={style["competence-item-title"]}>Figma</p>
-                        </div>
+                        <CompetenceItem 
+                            competenceAlt="Logo Photoshop"
+                            competenceImage={process.env.PUBLIC_URL + 'photoshop.png'}
+                            competenceNom="Photoshop"
+                        />
+                        <CompetenceItem 
+                            competenceAlt="Logo Illustrator"
+                            competenceImage={process.env.PUBLIC_URL + 'illustrator.png'}
+                            competenceNom="Illustrator"
+                        />
+                        <CompetenceItem 
+                            competenceAlt="Logo InDesign"
+                            competenceImage={process.env.PUBLIC_URL + 'indesign.png'}
+                            competenceNom="InDesign"
+                        />
+                        <CompetenceItem 
+                            competenceAlt="Logo Figma"
+                            competenceImage={process.env.PUBLIC_URL + 'figma.png'}
+                            competenceNom="Figma"
+                        />
                     </div>
                 </div>
             </div>

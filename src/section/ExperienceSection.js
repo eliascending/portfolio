@@ -1,3 +1,4 @@
+import ExperienceItem from '../components/ExperienceItem';
 import style from './ExperienceSection.module.css';
 
 const ExperienceSection = () => {
@@ -8,26 +9,26 @@ const ExperienceSection = () => {
                 <h2>Expériences</h2>
             </div>
             <div className={style["experience-content"]}>
-                <div className={style["experience-item"]}>
-                    <h3 className={style["title-exp"]}>Stage découverte - Ferme de Gally</h3>
-                    <p className={style["date-exp"]}>2018</p>
-                    <p className={style["text-exp"]}>Mise en rayon, montage de mobilier, gestion des stocks, relation client.</p>
-                </div>
-                <div className={style["experience-item"]}>
-                    <h3 className={style["title-exp"]}>Graphisme - Brotherhood ASBBNB</h3>
-                    <p className={style["date-exp"]}>2020 - 2022</p>
-                    <p className={style["text-exp"]}>Supervision et conception des supports graphique pour les réseaux de l'équipe.</p>
-                </div>
-                <div className={style["experience-item"]}>
-                    <h3 className={style["title-exp"]}>Web Designer - FIEALD</h3>
-                    <p className={style["date-exp"]}>2022</p>
-                    <p className={style["text-exp"]}>Audit et réalisation d'une maquette web pour le site internet.</p>
-                </div>
-                <div className={style["experience-item"]}>
-                    <h3 className={style["title-exp"]}>En cours...</h3>
-                    <p className={style["date-exp"]}>2023 ?</p>
-                    <p className={style["text-exp"]}>...</p>
-                </div>
+                <ExperienceItem
+                    experienceTitle="Stage découverte - Ferme de Gally"
+                    experienceDate="2018"
+                    experienceText="Mise en rayon, montage de mobilier, gestion des stocks, relation client."
+                />
+                <ExperienceItem
+                    experienceTitle="Graphisme - Brotherhood ASBBNB"
+                    experienceDate="2020 - 2022"
+                    experienceText="Supervision et conception des supports graphique pour les réseaux de l'équipe."
+                />
+                <ExperienceItem
+                    experienceTitle="Web Designer - FIEALD"
+                    experienceDate="2022"
+                    experienceText="Audit et réalisation d'une maquette web pour le site internet."
+                />
+                <ExperienceItem
+                    experienceTitle="En cours..."
+                    experienceDate="2023 ?"
+                    experienceText="..."
+                />
             </div>
         </div>
     </section>
