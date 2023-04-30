@@ -13,7 +13,7 @@ const ParcoursSection = () => {
                     parcoursNumber="1"
                     parcoursTitle="Baccalauréat général - Lycée Pierre Corneille"
                     parcoursDate="2018 - 2021"
-                    parcoursText="Histoire Géographie Géopolitique Scienes Politique, Scienes Economiques et Sociales, Langues Littératures Civilisations Étrangères en Anglais"
+                    parcoursText="Histoire Géographie Géopolitique Sciences Politique, Sciences Economiques et Sociales, Langues Littératures Civilisations Étrangères en Anglais"
                 />
                 <ParcoursItem 
                     parcoursNumber="2"
