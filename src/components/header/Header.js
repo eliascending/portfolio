@@ -17,6 +17,7 @@ const Header = () => {
     }
 
     return (
+        <>
         <header className={`${isMenuOpen ? style["header-anim"] : ""}`}>
             <nav>
                 <FontAwesomeIcon
@@ -37,6 +38,7 @@ const Header = () => {
                 )}
             </nav>
         </header>
+        </>
     );
 }
 
